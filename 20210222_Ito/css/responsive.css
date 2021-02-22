@@ -1,0 +1,95 @@
+@media screen and (max-width: 768px){
+  #hamburger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: 15px;
+  right: 20px;
+  transition: 0.4s;
+}
+
+#hamburger span {
+  position: absolute;
+  left: 2px;
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+  transition: 0.8s;
+}
+
+#hamburger span:nth-of-type(1) {
+  top: 10px;
+}
+
+#hamburger span:nth-of-type(2) {
+  top: 20px; 
+}
+
+#hamburger span:nth-of-type(3) {
+  top: 30px; 
+}
+
+.header-nav {
+  display: none; 
+}
+
+/* eyecacth */
+#firstview {
+  height: 70%;
+}
+
+.catchcopy {
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* news */
+.news {
+  width: 100%;
+}
+
+/* service */
+.service-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.service-content_inner {
+  position: static;
+  width: 100%;
+}
+
+.service-img {
+  width: 100%;
+  margin-left: 0;
+}
+
+/* company */
+.recruit-company {
+  flex-direction: column;
+}
+
+.recruit-company_size {
+  width: 100%;
+}
+
+/* footer */
+.header-nav {
+  display: none;
+}
+
+.footer-bar .flex {
+  display: block;
+}
+
+.footer-bar h1 {
+  text-align: center;
+}
+
+
+}
